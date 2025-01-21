@@ -1,2 +1,8 @@
 # Desafio-SETHAS
-Repositório para parte do processo seletivo de uma vaga.
+Tela desenvolvida como parte do processo seletivo para SETHAS (Secretaria de Estado do Trabalho, da Habitação e da Assistência Social).
+
+## Tecnologias
+- HTML;
+- CSS;
+- JavaScript;
+- Tailwind CSS;
