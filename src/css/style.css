@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+h2 {
+  margin: 0;
+  color: rgb(90, 179, 115);
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background: rgb(225, 230, 226);
+}
+
+header {
+  padding: 2.4rem;
+}
+
+.container-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fdfdfd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-principal::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 50%;
+  width: 1px;
+  background: #ccc;
+}
+
+.container-formulario input {
+  width: 100%;
+  padding: 18px;
+  border: 0px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.container-formulario input:focus {
+  outline: none;
+  border: 1px solid rgb(90, 179, 115);
+}
+
+.container-formulario label {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+label::after {
+  content: " *";
+  color: red;
+}
+
+.left {
+  padding: 50px;
+  border-radius: 7px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  margin-bottom: 0.7rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgb(90, 179, 115);
+  color: #fff;
+  border: 0;
+  width: 100%;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background: rgb(62, 124, 80);
+  transition: 0.5s;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
