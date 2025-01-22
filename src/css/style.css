@@ -44,14 +44,32 @@ header {
   background: #ccc;
 }
 
-.container-formulario input {
-  width: 100%;
-  padding: 18px;
-  border: 0px solid #ccc;
-  background: #f0f0f0;
-  border-radius: 7px;
-  box-sizing: border-box;
-  margin-top: 10px;
+.input-container {
+    position: relative;
+}
+
+.container-formulario input,
+input[type="password"],
+input[type="text"] {
+    position: relative;
+    width: 100%;
+    padding: 13px;
+    padding-right: 40px; /* Espaço para o ícone */
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    font-size: 16px;
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 60%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .container-formulario input:focus {
@@ -84,6 +102,8 @@ label::after {
 .form-row {
   margin-bottom: 0.7rem;
 }
+
+
 
 button {
   padding: 10px 20px;
