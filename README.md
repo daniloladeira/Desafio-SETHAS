@@ -5,4 +5,3 @@ Tela desenvolvida como parte do processo seletivo para SETHAS (Secretaria de Est
 - HTML;
 - CSS;
 - JavaScript;
-- Tailwind CSS;
