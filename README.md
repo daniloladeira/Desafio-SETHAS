@@ -4,3 +4,4 @@ Tela desenvolvida como parte do processo seletivo para SETHAS (Secretaria de Est
 ## Tecnologias
 - HTML;
 - CSS;
+- JavaScript.
